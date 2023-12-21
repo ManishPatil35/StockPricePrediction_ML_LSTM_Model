@@ -1,7 +1,7 @@
-#Overview :
+Overview :
 The Stock Market Predictor is a Streamlit web application that allows users to input a stock symbol and view historical stock data along with predicted future prices. The application uses a pre-trained neural network model, historical stock prices, and moving averages to generate predictions.
 
-#Requirement :
+Requirement :
 
 Ensure that you have the following dependencies installed:
 
@@ -14,7 +14,7 @@ Streamlit
 Matplotlib
 scikit-learn
 
-#Code Analysis :
+Code Analysis :
 
 The code comprises the following key components:
 
