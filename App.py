@@ -5,7 +5,7 @@ from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model = load_model(r'C:\Users\MANISH\Desktop\ML_SockPredict\Stock Market Prediction 44 Moving Average.keras')
+model = load_model('Stock Market Prediction 44 Moving Average.keras')
 
 st.header('STOCK MARKET PREDICTOR')
 stock = st.text_input('Enter Stock Symbol' , 'GOOG')
